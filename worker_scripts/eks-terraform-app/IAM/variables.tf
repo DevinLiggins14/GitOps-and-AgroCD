@@ -1,1 +1,0 @@
-variable "PROJECT_NAME" {}
