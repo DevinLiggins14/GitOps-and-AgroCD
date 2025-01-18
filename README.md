@@ -120,6 +120,10 @@ This file acts as the backbone of the infrastructure setup, connecting all compo
 
 
 
+https://github.com/user-attachments/assets/a4171159-eaa5-4fe2-91bc-b946cf7c723a
+
+
+
 
 ## Step 2:
 
