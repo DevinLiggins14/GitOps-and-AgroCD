@@ -116,7 +116,15 @@ It leverages custom modules to create a VPC, NAT Gateway, IAM roles, an EKS clus
 Each module is designed to be reusable and modular, ensuring scalability and maintainability for the project. <br/>  
 This file acts as the backbone of the infrastructure setup, connecting all components seamlessly.
 
+<br/> The next step is to run `terraform init` -->  `terraform plan` --> `terraform apply --auto-approve` to provision the infrastructure: <br/>
 
+
+
+
+## Step 2:
+
+
+<br/> Now run `aws eks update-kubeconfig --region $REGION --name $CLUSTER_NAME` <br/>
 
 <img src=""/>
 
