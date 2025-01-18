@@ -44,7 +44,8 @@
 ### **Prerequisites**  
 - Linux Server that can support the project
 - Have an [AWS account](https://aws.amazon.com/console/)
-- Install [terraform](https://developer.hashicorp.com/terraform/install).  
+- Install [terraform](https://developer.hashicorp.com/terraform/install)
+- Have a [CircleCI account](https://circleci.com/docs/first-steps/) 
 
 
  ##  Step 1: Containerize the TODO application using Docker 
@@ -125,14 +126,16 @@ https://github.com/user-attachments/assets/a4171159-eaa5-4fe2-91bc-b946cf7c723a
 
 
 
-## Step 2:
+## Step 2: Connect to the EKS Cluster
 
 
-<br/> Now run `aws eks update-kubeconfig --region $REGION --name $CLUSTER_NAME` <br/>
+<br/> Now run `aws eks update-kubeconfig --region $REGION --name $CLUSTER_NAME` and run kubectl commands to verify being connected to the cluster. <br/>
 
-<img src=""/>
+<img src="https://github.com/user-attachments/assets/fb28c44d-589d-4299-ac2d-a80c354836e1"/>
 
-<br/> <br/>
+## Step 3: Set up and configure Circle CI
+
+<br/>   <br/>
 
 <img src=""/>
 
