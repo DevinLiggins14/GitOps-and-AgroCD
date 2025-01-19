@@ -135,7 +135,7 @@ https://github.com/user-attachments/assets/a4171159-eaa5-4fe2-91bc-b946cf7c723a
 
 ## Step 3: Set up and configure Circle CI
 
-<br/>   <br/>
+<br/> CircleCI code will need to be able to access GitHub so we need to configure a personal access token.  <br/>
 
 <img src=""/>
 
